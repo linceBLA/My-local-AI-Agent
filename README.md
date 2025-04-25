@@ -48,12 +48,17 @@ To list installed models:
 ```bash
 ollama list
 ```
+### 3. 📦🌐 Clone web-ui Repository
 
+```bash
+git clone https://github.com/browser-use/web-ui.git
+cd web-ui
+```
 
 
 ---
 
-### 3. 🐍 Set Up Python & Virtual Environment
+### 4. 🐍 Set Up Python & Virtual Environment
 
 You need Python 3.11+.
 
@@ -71,7 +76,10 @@ source myenv/bin/activate
 
 ---
 
-### 4. 🤖 Install the Local AI Agent (browser-use)
+### 5. 🤖 Install the Local AI Agent (browser-use)
+
+
+
 
 Now install your own AI agent interface:
 
@@ -90,7 +98,7 @@ patchright install chromium
 
 ---
 
-### 5. 🔌 Run the Agent on Your Machine
+### 6. 🔌 Run the Agent on Your Machine
 
 Launch your AI agent locally with:
 
