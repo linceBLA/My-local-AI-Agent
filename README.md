@@ -82,6 +82,9 @@ pip install browser-use
 And install Patchright for Chromium browser support:
 
 ```bash
+pip install patchright
+```
+```bash
 patchright install chromium
 ```
 
