@@ -178,4 +178,4 @@ My work focuses on building efficient, secure, and practical systems.
 
 
 
-📎 **Ref**: [browser-use GitHub Repository]([https://github.com/](https://github.com/browser-use/browser-use))
+📎 **Ref**: [browser-use GitHub Repository](https://github.com/browser-use/browser-use)
