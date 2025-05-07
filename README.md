@@ -21,7 +21,7 @@ This project demonstrates how to install and run your own local AI agent directl
 - [Installation Guide](#installation-guide)
 - [Key Features](#key-features)
 - [Use Cases](#use-cases)
-- [About the Author](#about-the-author)
+
 
 ---
 
@@ -105,35 +105,55 @@ You need Python 3.11+.
 Create a virtual environment:
 
 ```bash
-python3 -m venv myenv
+uv venv --python 3.11
 ```
 
 Activate it:
 
 ```bash
-source myenv/bin/activate
+source .venv/bin/activate
 ```
 
 ---
 
-### Step 5: Install the Local AI Agent
+### Step 5: Install Dependencies
 
-Next, install your own AI agent interface:
+Next, install Python packages:
 
 ```bash
-pip install browser-use
+uv pip install -r requirements.txt
 ```
 
 Additionally, install **Patchright** for Chromium browser support:
 
 ```bash
-pip install patchright
 patchright install chromium
 ```
 
 ---
 
-### Step 6: Run the Agent on Your Machine
+### Step 6: Configure Environment
+
+Create a copy of the example environment file: 
+
+```bash
+cp .env.example .env
+```
+
+Register your personal API keys and other settings.
+Open `.env` in your preferred text editor, for example:
+
+```bash
+vim .env 
+```
+![image](https://github.com/user-attachments/assets/eaf90b29-8090-40b4-a5cf-a133e3127ade)
+
+Enter your API in this file.
+
+Please note: If you enter your OPENAI_API_KEY, usage will be billed directly to your OpenAI account based on the number of tokens consumed.
+
+
+### Step 7: Run the Agent on Your Machine
 
 Launch your AI agent locally with:
 
@@ -171,10 +191,7 @@ http://localhost:7788
 
 ---
 
-## About the Author
 
-I am an Ethical Hacker and AI Trainer specializing in cybersecurity, privacy-first solutions, and AI-driven workflows.  
-My work focuses on building efficient, secure, and practical systems.
 
 
 
